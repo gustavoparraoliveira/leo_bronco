@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="intro">
+            <div>
+                <h1><b>i sense a<br>stampede<br>comin.</b></h1><br>
+                <div>
+                    <h4>join the broncos.</h4>
+                </div>
+            </div>
+
+            <div class="img">                                                                                                        
+                <img src="https://files.jotform.com/jufs/leonardovarellav/form_files/green%20horse.663dd4540daa86.83876921.png?md5=guLYCF1lw0hjXSsR99_YvQ&expires=1717105332">
+            </div>    
+        </div>
+        
+        <form id="form" name="form" action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="apikey" value="f8b17acb-f2dc-456f-abe1-bc8b0122f191">
+
+        <div style="width: 100%;">
+            <h3>who are u</h3>
+        </div>
+        
+        <div class="nameinput">
+
+            <div style="width: 50%;">
+                <input type="text" id="firstName" name="firstName" required>
+                <div style="font-size: small; padding: 10px 0px;">
+                    <span>First Name</span>
+                </div>
+            </div>
+
+            <div style="width: 50%;">
+                <input type="text" id="lastName" name="lastName" required>
+                <div style="font-size: small; padding: 10px 0px;">
+                    <span>Last Name</span>
+                </div>
+            </div>
+        </div>
+
+        <div style="width: 100%; display: flex; flex-direction: row; align-content: space-between;flex-wrap: wrap;">
+            <div style="width: 50%">
+                <h3>ill write u</h3>
+            </div>
+            <div style="width: 50%">
+                <h3>& call u</h3>
+            </div>
+        </div>
+
+        <div class="emailphoneinput">
+
+            <div style="width: 50%;">
+                <input type="email" id="email" name="email" required>
+                <div style="font-size: 12px; padding: 10px 0px; flex-wrap: wrap;">
+                    <span>example@example.com</span>
+                </div>
+            </div>
+            
+            <div style="width: 50%; display: flex; flex-direction: row; align-content: space-between;">
+
+                <div style="width: 100%;">
+                    <input style="padding: 12px 10px" type="text" id="phoneNumber" placeholder="+00 000 000-0000" name="phoneNumber" required>
+                    <div style="font-size: 11px; padding: 10px 0px; flex-wrap: wrap;">
+                        <span>Phone Number w/ Country & Area Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="display: flex; justify-content: center;">
+        <button type="submit"><b>Submit</b></button>
+        </div>
+
+        </form>
+    </div>
+</body>
+</html>
